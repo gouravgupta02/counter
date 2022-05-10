@@ -1,0 +1,33 @@
+
+h1, p {
+    font-family: 'Ubuntu', sans-serif;
+}
+h2 {
+    font-family: "Sacramento", cursive;
+}
+button{
+    border-radius: 10%;
+    color: #BFFFFD;
+    cursor: pointer;
+    margin: 10px;
+    padding: 10px;
+    border: none;
+    background: #008E89;
+    transition: transform 500ms;
+}
+button:hover{
+    background: #85F4FF;
+    color: #008E89;
+    transform: scale(1.2);
+}
+
+.parent-div {
+    padding: 1rem;
+    margin: 5% auto;
+    height: 20rem;
+    width: 35%;
+    text-align: center;
+    background-color: #65C18C;
+    color: #fff;
+    border-radius: 15%;
+}
